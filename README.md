@@ -1,7 +1,9 @@
 <p align="center">
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" src="./image/logo_fix.png" alt="MoocHelper"/>
 </br>
-<h1>MoocHelper - 智慧职教助手</h1> 
+<h1>
+  <img width="150" height="150" align="left" src="./image/logo_fix.png" alt="MoocHelper"/>
+  MoocHelper - 智慧职教助手
+</h1> 
 使用Python作为开发语言，该版本为第三版
 </br>
 软件支持智慧职教答题、观看课件，职教云观看课件等功能
