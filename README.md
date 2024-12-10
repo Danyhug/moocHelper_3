@@ -23,24 +23,24 @@
 
 ```
 moocHelper3                         // 软件目录
-├─ README.md                     	// 软件介绍
-├─ docs								// 软件文档
-│    └─ 进度.md
-├─ gui								// GUI部分
-│    ├─ answerFile					// 获取到的答案文件
-│    ├─ connCodeUI.py				// 主文件，第一个GUI文件
-│    ├─ dist						// 打包目录，软件在这里打包发布
-│    │    ├─ Pack					// 软件包		
+├─ README.md                      	// 软件介绍
+├─ docs                            	// 软件文档
+│    └─ 进度.md                  	  // 进度记录
+├─ gui                             	// GUI部分
+│    ├─ answerFile                	// 获取到的答案文件
+│    ├─ connCodeUI.py             	// 主文件，第一个GUI文件
+│    ├─ dist                      	// 打包目录，软件在这里打包发布
+│    │    ├─ Pack                 	// 软件包
 │    │    ├─ connCodeUI.exe
 │    │    ├─ mainUI.exe
-│    │    └─ res					// 软件所需资源
-│    ├─ fav.ico						// 软件图标
-│    ├─ globalData.py				// 全局数据
-│    ├─ log							// 日志目录
-│    │    └─ running.log			// 运行中的日志
-│    ├─ loginUI.py					// 第二个GUI文件，登录智慧职教平台
-│    ├─ mainUI.py					// 主程序，登录后显示
-│    ├─ res							// 软件所需资源目录
+│    │    └─ res                  	// 软件所需资源
+│    ├─ fav.ico                   	// 软件图标
+│    ├─ globalData.py             	// 全局数据
+│    ├─ log                       	// 日志目录
+│    │    └─ running.log          	// 运行中的日志
+│    ├─ loginUI.py                	// 第二个GUI文件，登录智慧职教平台
+│    ├─ mainUI.py                 	// 主程序，登录后显示
+│    ├─ res                       	// 软件所需资源目录
 │    │    ├─ love.png
 │    │    ├─ photo.png
 │    │    ├─ qr.png
@@ -51,18 +51,18 @@ moocHelper3                         // 软件目录
 │    │    ├─ vip2.png
 │    │    ├─ vip3.png
 │    │    └─ vip4.png
-│    └─ tool.py						// 工具，里面有一些软件中需要用到的函数
-├─ lib								// 软件的功能实现
-│    ├─ class						// 各个类
-│    │    ├─ file.py				// 文件类，主要负责IO操作
-│    │    ├─ mooc.py				// 智慧职教类，负责智慧职教的有关操作
-│    │    ├─ user.py				// 用户类，负责平台的登录等操作
-│    │    ├─ utils.py				// 工具类，里面写了一个全局请求头，会话状态保持
-│    │    ├─ wx.py					// 微信类，主要是与小程序相关的操作
-│    │    └─ zjy.py					// 职教云类，负责职教云的有关操作
-│    ├─ running.log					// 运行时的日志
-├─ start.py							// 无实际意义
-└─ 新建文本文档.txt					// 使用Pyinstaller时的打包命令
+│    └─ tool.py                   	// 工具，里面有一些软件中需要用到的函数
+├─ lib                             	// 软件的功能实现
+│    ├─ class                     	// 各个类
+│    │    ├─ file.py              	// 文件类，主要负责IO操作
+│    │    ├─ mooc.py              	// 智慧职教类，负责智慧职教的有关操作
+│    │    ├─ user.py              	// 用户类，负责平台的登录等操作
+│    │    ├─ utils.py             	// 工具类，里面写了一个全局请求头，会话状态保持
+│    │    ├─ wx.py                	// 微信类，主要是与小程序相关的操作
+│    │    └─ zjy.py               	// 职教云类，负责职教云的有关操作
+│    ├─ running.log               	// 运行时的日志
+├─ start.py                       	// 无实际意义
+└─ 新建文本文档.txt               	  // 使用Pyinstaller时的打包命令
 ```
 
 软件原理
