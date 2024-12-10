@@ -22,10 +22,10 @@
 ----
 
 ```
-moocHelper3                         // 软件目录
+moocHelper3                             // 软件目录
 ├─ README.md                      	// 软件介绍
 ├─ docs                            	// 软件文档
-│    └─ 进度.md                  	  // 进度记录
+│    └─ 进度.md                  	// 进度记录
 ├─ gui                             	// GUI部分
 │    ├─ answerFile                	// 获取到的答案文件
 │    ├─ connCodeUI.py             	// 主文件，第一个GUI文件
@@ -62,7 +62,7 @@ moocHelper3                         // 软件目录
 │    │    └─ zjy.py               	// 职教云类，负责职教云的有关操作
 │    ├─ running.log               	// 运行时的日志
 ├─ start.py                       	// 无实际意义
-└─ 新建文本文档.txt               	  // 使用Pyinstaller时的打包命令
+└─ 新建文本文档.txt                      // 使用Pyinstaller时的打包命令
 ```
 
 软件原理
